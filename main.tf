@@ -2,7 +2,7 @@ data "aws_caller_identity" "current" {}
 
 module "datazone_domain" {
   source  = "app.terraform.io/tfc-demo-au/datazone-domain/awscc"
-  version = "~>  0.2.0"
+  version = "~>  0.2.5"
 
   aws_account                 = data.aws_caller_identity.current.account_id
   datazone_domain_name        = var.datazone_domain_name
