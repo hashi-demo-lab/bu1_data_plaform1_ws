@@ -13,8 +13,8 @@ output "datazone_domain_id" {
   description = "The ID of the DataZone Domain"
 }
 
-output "environment_project_id" {
-  value = module.datazone_domain.environment_project_id
+output "projects" {
+  value = module.datazone_domain.projects
   description = "The ID of the Environment Project"
 }
 
