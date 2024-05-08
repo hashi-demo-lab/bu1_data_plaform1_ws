@@ -13,6 +13,11 @@ output "datazone_domain_id" {
   description = "The ID of the DataZone Domain"
 }
 
+output "datazone_environment_blueprints" {
+  value = module.datazone_domain.datazone_environment_blueprints
+  description = "DataZone environment blueprints"
+}
+
 output "projects" {
   value = module.datazone_domain.projects
   description = "The ID of the Environment Project"
