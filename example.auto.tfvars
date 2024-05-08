@@ -1,5 +1,5 @@
-datazone_domain_name        = "example_domain_template"
-datazone_description        = "AWS DataZone Domain"
+datazone_domain_name        = "bu1_data_platform1"
+datazone_description        = "bu1 DataZone 1"
 datazone_kms_key_identifier = null
 single_sign_on              = {}
 tags                        = null
@@ -21,8 +21,12 @@ environment_blueprints = {
       description    = "shared environment project"
       glossary_terms = null
     }
-    data_team = {
-      description    = "Data Team Project 1"
+    data_project1 = {
+      description    = "data_project 1"
+      glossary_terms = null
+    }
+    data_project2 = {
+      description    = "data_project 2"
       glossary_terms = null
     }
 }
