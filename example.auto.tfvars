@@ -29,4 +29,8 @@ environment_blueprints = {
       description    = "data_project 2"
       glossary_terms = null
     }
+    data_project3 = {
+      description    = "data_project 3"
+      glossary_terms = null
+    }
 }
